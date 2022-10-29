@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+//virtual DOM
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<p>This is React App , Learn this and ecome a pro in web apps</p>)
+//fecth all components
+root.render(<App/>)
 // root.render(
 //   <React.StrictMode>
 //     <App />
